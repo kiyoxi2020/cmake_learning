@@ -1,0 +1,5 @@
+/home/wyq/cmake/t4-3/build/CMakeFiles/rebuild_cache.dir
+/home/wyq/cmake/t4-3/build/CMakeFiles/edit_cache.dir
+/home/wyq/cmake/t4-3/build/bin/CMakeFiles/rebuild_cache.dir
+/home/wyq/cmake/t4-3/build/bin/CMakeFiles/edit_cache.dir
+/home/wyq/cmake/t4-3/build/bin/CMakeFiles/main.dir

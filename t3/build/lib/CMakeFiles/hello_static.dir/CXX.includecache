@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wyq/cmake/t3/lib/hello.cpp
+hello.h
+/home/wyq/cmake/t3/lib/hello.h
+
+/home/wyq/cmake/t3/lib/hello.h
+iostream
+-
+

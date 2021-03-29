@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main   -L/tmp/t3/lib  -Wl,-rpath,/tmp/t3/lib -Wl,-Bstatic -lhello -Wl,-Bdynamic 
