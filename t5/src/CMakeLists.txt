@@ -1,0 +1,14 @@
+
+add_executable(curltest main.c)
+FIND_PACKAGE(CURL)
+IF(CURL_FOUND)
+	MESSAGE(STATUS "FIND " ${CURL_FOUND} ${CURL_INCLUDE_DIR} ${CURL_LIBRARY})
+	INCLUDE_DIRECTORIES(${CURL_INCLUDE_DIR})
+	TARGET_LINK_LIBRARIES(curltest ${CURL_LIBRARY})
+ELSE(CURL_FOUND)
+	MESSAGE(FATAL_ERROR "CURL NOT FOUND !")
+ENDIF(CURL_FOUND)
+
+
+#include_directories(/usr/include)
+#target_link_libraries(curltest curl)
